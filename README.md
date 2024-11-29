@@ -1,3 +1,9 @@
+# Presentation Link
+
+https://www.youtube.com/watch?v=DEZL8IXbr28
+
+**Note:** The audio recording is missing due to issues with finding a suitable microphone.
+
 # SE4458 Midterm Project
 This is a web-based ticket management system designed for airline flight bookings and check-ins. The application allows users to:
 • Search for available flights based on date, origin, and destination.
