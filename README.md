@@ -48,7 +48,7 @@ This is a web-based ticket management system designed for airline flight booking
   Authorization: Bearer <your_token_here>
   ```
 
-  #Data Models
+  # Data Models
   
   **Flights**
   - ID: int (Primary key)
