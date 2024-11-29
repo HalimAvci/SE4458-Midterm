@@ -8,6 +8,8 @@ https://www.youtube.com/watch?v=DEZL8IXbr28
 
 ![ER Diagram](https://github.com/user-attachments/assets/89e47832-605a-407d-a112-4f86b8c8335b)
 
+**!!!** For a detailed explanation of the data model used in this project, please refer to the Data Model section at the end of this document.
+
 
 # SE4458 Midterm Project
 This is a web-based ticket management system designed for airline flight bookings and check-ins. The application allows users to:
