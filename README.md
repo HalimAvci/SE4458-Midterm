@@ -47,4 +47,23 @@ This is a web-based ticket management system designed for airline flight booking
   ```bash
   Authorization: Bearer <your_token_here>
   ```
+
+  #Data Models
+  
+  **Flights**
+  - ID: int (Primary key)
+  - Date: date
+  - FlightNumber: varchar
+  - FromLoc: varchar
+  - ToLoc: varchar
+  - AvailableSeats: int
+  - Price: decimal
+
+  **Tickets**
+  - ID: int (Primary key)
+  - Date: date
+  - FlightNumber: varchar (Foreign key to flights)
+  - PassName: varchar
+  - NoOfPeople: int
+  - IsCheckedIn: bit
   
