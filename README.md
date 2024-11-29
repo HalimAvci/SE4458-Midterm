@@ -1,6 +1,6 @@
 # Presentation Link
 
-https://www.youtube.com/watch?v=DEZL8IXbr28
+https://drive.google.com/file/d/12Zbarqq7Au5Q-eXwOLcS5DJep0fTbO9I/view?usp=drive_link
 
 **Note:** The audio recording is missing due to issues with finding a suitable microphone.
 
