@@ -17,9 +17,9 @@ This is a web-based ticket management system designed for airline flight booking
 - **Ticket Booking:** Book tickets for flights and generate booking details.
 - **Check-In:** Passengers can check in for their flights once a ticket is purchased.
 
-  - • **Admin Features:**
-  - **Add Flights:** Admin users can add new flights with details like date, origin, destination, available seats, and price.
-  - **Report Flights:** Admin users can generate reports of flights based on various filters like date, available seats, and price.
+- • **Admin Features:**
+- **Add Flights:** Admin users can add new flights with details like date, origin, destination, available seats, and price.
+- **Report Flights:** Admin users can generate reports of flights based on various filters like date, available seats, and price.
 
   # Technologies Used
   - **ASP.NET Core:** Backend framework for building RESTful APIs.
