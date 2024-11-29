@@ -33,6 +33,8 @@ This is a web-based ticket management system designed for airline flight booking
   - **Entity Framework Core:** ORM for database interactions.
   - **JWT Authentication:** secures API endpoints using JSON Web Tokens (JWT).
   - **Microsoft SQL Server:** Database used to store flight and ticket data.
+  - **Visual Paradigm:** For creating the ER diagram and database modeling.
+  - **Visual Studio 2022:** As the primary IDE for development.
 
   # API Endpoints
   **Authentication**
