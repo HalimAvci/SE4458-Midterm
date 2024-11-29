@@ -6,7 +6,39 @@ This is a web-based ticket management system designed for airline flight booking
 • Manage flight data with an admin interface.
 
 # Features
-- **User Features**
-• **Flight Search:** Search available flights based on date, origin, and destination.
-• **Ticket Booking:** Book tickets for flights and generate booking details.
-• **Check-In:** Passengers can check in for their flights once a ticket is purchased.
+- • **User Features:**
+- **Flight Search:** Search available flights based on date, origin, and destination.
+- **Ticket Booking:** Book tickets for flights and generate booking details.
+- **Check-In:** Passengers can check in for their flights once a ticket is purchased.
+
+  - • **Admin Features:**
+  - **Add Flights:** Admin users can add new flights with details like date, origin, destination, available seats, and price.
+  - **Report Flights:** Admin users can generate reports of flights based on various filters like date, available seats, and price.
+
+  # Technologies Used
+  - **ASP.NET Core:** Backend framework for building RESTful APIs.
+  - **Entity Framework Core:** ORM for database interactions.
+  - **JWT Authentication:** secures API endpoints using JSON Web Tokens (JWT).
+  - **Microsoft SQL Server:** Database used to store flight and ticket data.
+
+  # API Endpoints
+  **Authentication**
+  - **GET/Authentication/Values:** Authenticate admin users and get a JWT token.
+    
+  **Flights**
+  - **POST/Admin/Insert flight:** Add a new flight.
+  - **POST/Admin/Report flight:** Generate a report of flights based on filters.
+
+  **Ticketing**
+  - **GET/Mobile app/Query:** Query available flights.
+  - **POST/Mobile app/Buy:** Book a ticket.
+  - **POST/Mobile app/Check-in:** Check in for a flight.
+
+  # Security
+  This project uses JWT-based authentication. To access protected endpoints (such as adding flights or querying the flight report), an admin user needs to authenticate and receive a token. This token must be 
+  included in the Authorization header as a Bearer token.
+
+  ```bash
+  Authorization: Bearer <your_token_here>
+  ```
+  
