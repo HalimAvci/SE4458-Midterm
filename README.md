@@ -63,6 +63,8 @@ This is a web-based ticket management system designed for airline flight booking
   - ID: int (Primary key)
   - Date: date
   - FlightNumber: varchar (Foreign key to flights)
+  - FromLoc: varchar
+  - ToLoc: varchar
   - PassName: varchar
   - NoOfPeople: int
   - IsCheckedIn: bit
