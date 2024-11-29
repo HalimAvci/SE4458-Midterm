@@ -6,7 +6,7 @@ This is a web-based ticket management system designed for airline flight booking
 • Manage flight data with an admin interface.
 
 # Features
-**User Features**
+- **User Features**
 • **Flight Search:** Search available flights based on date, origin, and destination.
 • **Ticket Booking:** Book tickets for flights and generate booking details.
 • **Check-In:** Passengers can check in for their flights once a ticket is purchased.
